@@ -1,0 +1,108 @@
+
+h1 {
+  color: #fffae4;
+}
+
+#moon-phase {
+  font-size: 24px;
+  color: #dddddd;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+.container {
+    text-align: center;
+    color: #dddddd;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Style moon info */
+.moon-info {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f433;
+    box-shadow: 0 0 10px #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+#moon-icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+  }
+ /*made by rahul(https://github.com/abhiyendru01)*/
+text{
+    color: #f4f4f4;
+    text-shadow: #f4f4f4;
+  }
+  footer {
+    background-color: #33333300;
+    color: #fff;
+    text-align:baseline;
+    padding: 20px 0;
+  }
+  .footer-content {
+    justify-content: flex-end;
+    font-size: 14px;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  @media only screen and (max-width: 768px) {
+    .background::before {
+      background-color: rgba(255, 255, 255, 0.9); /* Adjust background overlay color and opacity */
+    }
+  
+    #moon-phase {
+      font-size: 20px;
+    }
+  
+    #illumination {
+      font-size: 16px;
+    }
+  
+    #moon-icon {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .footer-content {
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .background::before {
+      background-color: rgba(255, 255, 255, 1); /* Adjust background overlay color and opacity */
+    }
+  
+    #moon-phase {
+      font-size: 18px;
+    }
+  
+    #illumination {
+      font-size: 14px;
+    }
+  
+    #moon-icon {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .footer-content {
+      font-size: 10px;
+    }
+  }
